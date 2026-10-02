@@ -23,6 +23,7 @@ Allgemein zugängliche Anleitungen:
 - [Sicherheit und Grenzen](docs/sicherheit.md)
 - [Installation, Sicherung und Updates](docs/installation-und-updates.md)
 - [Lizenz und Rechnung](docs/lizenz.md)
+- [Stand der Vorabversion v0.2.0-rc.1](docs/stand-v0.2.0-rc.1.md)
 
 Diese Unterlagen beschreiben den aktuellen Vorabstand. Vor Verarbeitung echter Patientendaten
 sind Installation, PDF-Ausgabe, Sicherung und Wiederherstellung auf dem vorgesehenen Windows-PC
