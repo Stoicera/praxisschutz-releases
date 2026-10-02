@@ -1,19 +1,20 @@
 # Sicherheit und Grenzen
 
-**Stand: 02.10.2026. Technische Beschreibung eines noch nicht freigegebenen Entwicklungsstands.**
+**Stand: 02.10.2026. Öffentliche Vorabversion; vollständige Windows-11-Abnahme und digitale Signatur offen.**
 
 PraxisSchutz verschlüsselt PDFs lokal mit PDF-AES-256 über qpdf. Der Patientencode wird auf
 Papier übergeben. Der lokale Tresor ist unter Windows an das Benutzerkonto gebunden; portable
 Sicherungen sind zusätzlich mit einem eigenen Wiederherstellungsschlüssel verschlüsselt.
 Es gibt keinen Patienten-Cloud-Dienst, laufenden Lizenzserver oder Versand durch die App.
 
-Der neue, noch nicht für Patientendaten freigegebene Entwicklungsstand legt gespeicherte
+Die öffentliche Vorabversion legt gespeicherte
 Codes in eine zusätzliche age/Scrypt-Hülle. Ein selbst gewählter Praxisschlüssel braucht
 mindestens zwölf Zeichen; alternativ erzeugt die App einen zufälligen Schlüssel. Die
 Praxis entsperrt ihn einmal pro Sitzung vor neuen PDFs. Zum Anzeigen eines bestätigten
 Codes oder Erneuern ist eine frische Eingabe erforderlich. Ein kompromittierter laufender
 Prozess kann Passwort und Codes dennoch möglicherweise erfassen. Die Windows-Abnahme des
-exakten Installers und die Praxisfreigabe stehen aus.
+exakten Installers steht aus. Der Gründer hat die betreute Einführung trotz dieser
+offenen Prüfung beauftragt; die konkrete Praxis muss ihre IT- und Datenschutzprozesse prüfen.
 
 PraxisSchutz schützt weder das Originaldokument, unverschlüsselte E-Mail-Metadaten noch vor
 Phishing oder Schadsoftware auf dem Praxis-PC. Windows-Updates, getrennte Konten,

@@ -1,6 +1,6 @@
 # Produkt und Ablauf
 
-**Stand: 02.10.2026. PraxisSchutz ist noch nicht für echte Patientendaten freigegeben.**
+**Stand: 02.10.2026. Öffentliche Vorabversion für eine betreute Einführung; vollständige Windows-11-Abnahme offen.**
 
 PraxisSchutz ist eine lokale Windows-11-Anwendung für Ordinationen. Sie erstellt aus einem PDF
 eine verschlüsselte Kopie mit einem zufälligen Code pro Patientin oder Patient. Die Praxis
@@ -12,10 +12,10 @@ Patientinnen und Patienten benötigen keine PraxisSchutz-App und kein Benutzerko
 das PDF mit einem geeigneten PDF-Programm und geben den Code der Papierkarte ein. Die Praxis
 soll den Ablauf vor dem Einsatz auf den verwendeten Endgeräten mit Testdaten prüfen.
 
-Der neue, noch nicht freigegebene Entwicklungsstand schützt gespeicherte Codes mit einem
+Die öffentliche Vorabversion schützt gespeicherte Codes mit einem
 zusätzlichen Praxisschlüssel. Nach bestätigtem Kartendruck ist ein Code nur nach erneuter
 Schlüsselbestätigung sichtbar. Für spätere PDFs muss die Praxis ihre Sitzung zunächst
-entsperren. Diese Änderung ist noch nicht am freigegebenen Windows-Installer abgenommen.
+entsperren. Diese Änderung ist noch nicht am exakten öffentlichen Installer vollständig auf Windows 11 abgenommen.
 
 Wichtig: Nur die verschlüsselte Kopie anhängen; keine Diagnose in unverschlüsselten Betreff
 oder Nachrichtentext schreiben. Die Empfängeradresse vor dem Versand prüfen.
