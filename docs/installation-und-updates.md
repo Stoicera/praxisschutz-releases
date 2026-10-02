@@ -1,12 +1,13 @@
 # Installation, Datensicherung und Updates
 
-**Stand: 02.10.2026. Es gibt noch keinen freigegebenen Kundendownload.**
+**Stand: 02.10.2026. Öffentliche Vorabversion; vollständige Windows-11-Abnahme und digitale Signatur stehen noch aus.**
 
-Erst nach Veröffentlichung eines freigegebenen Releases:
+Für die betreute Einführung:
 
 1. Den Windows-11-x64-Installer aus diesem Repository herunterladen und die veröffentlichte
-   SHA-256-Prüfsumme mit der heruntergeladenen Datei vergleichen. Interne CI-Artefakte und
-   Release-Kandidaten sind keine Kundenversionen.
+   SHA-256-Prüfsumme mit der heruntergeladenen Datei vergleichen. Nur das ausdrücklich
+   öffentliche Release verwenden, keine internen CI-Artefakte. Windows kann „Unbekannter
+   Herausgeber“ anzeigen; bei einer Sperre durch die Praxis-IT nicht die Schutzfunktion abschalten.
 2. Im vorgesehenen Windows-Benutzerkonto installieren und starten. Die Installations-ID
    unter „Lizenz & Freischaltung“ für eine externe Rechnung an Lugmayr-Kern übermitteln.
    Bitte keine Patientendaten mitsenden.
@@ -24,9 +25,10 @@ sind nicht in dieser Sicherung enthalten. Die Wiederherstellung regelmäßig mit
 auf einem getrennten Windows-PC üben.
 
 Die direkte Windows-Installation prüft nicht selbst im Netz auf Updates. Vor einem Update
-eine neue portable Sicherung erstellen, Versionshinweise lesen, die Prüfsumme vergleichen
-und den freigegebenen Installer im vorgesehenen Benutzerkonto installieren. Danach Start
-und eine Verschlüsselung mit Testdaten prüfen. Für einen neuen PC oder ein anderes
+eine neue portable Sicherung erstellen, Versionshinweise und offenen Prüfstand lesen, die Prüfsumme
+vergleichen und den neueren Installer im vorgesehenen Benutzerkonto installieren. Danach Start,
+Lizenzstatus, Patientenliste und eine Verschlüsselung mit Testdaten prüfen. Eine Wiederherstellung
+mit Testdaten auf einem getrennten Windows-Konto üben. Für einen neuen PC oder ein anderes
 Windows-Konto ist eine neue Installations-ID und abgestimmte Aktivierung erforderlich.
 
 Bei Problemen Tresordateien nicht manuell löschen. Version, Zeitpunkt und eine neutrale

@@ -1,14 +1,15 @@
-# PraxisSchutz – freigegebene Downloads
+# PraxisSchutz – öffentliche Downloads
 
-Dieses öffentliche Repository ist der Downloadkanal für **freigegebene** Windows-Installer von
+Dieses öffentliche Repository ist der Downloadkanal für Windows-Installer von
 PraxisSchutz. Der Quellcode und interne Betriebsunterlagen liegen in einem getrennten privaten
 Repository. Herausgeber ist Raphael Lugmayr & Sebastian Kern GesbR (Lugmayr-Kern).
 
-**Derzeit gibt es hier noch keinen freigegebenen Installer.** Die Version 0.2.0 befindet sich
-in Entwicklung. Ein grüner CI-Bau oder ein interner Release-Kandidat ist keine Freigabe für
-echte Patientendaten. Sobald die Abnahme des exakten Windows-Installers abgeschlossen ist,
-erscheinen unter [Releases](https://github.com/Stoicera/praxisschutz-releases/releases) die
-Installationsdatei, ihre SHA-256-Prüfsumme, Versionshinweise und der Freigabestatus.
+Die erste öffentliche Version wird als **Vorabversion** gekennzeichnet. Ihre vollständige
+Windows-11-Abnahme ist noch offen; der Installer ist derzeit nicht digital signiert.
+Der Gründer hat die Veröffentlichung und betreute Einführung trotz dieser offenen Punkte
+am 02.10.2026 entschieden. Unter [Releases](https://github.com/Stoicera/praxisschutz-releases/releases)
+stehen die Installationsdatei, ihre SHA-256-Prüfsumme, Versionshinweise und der genaue
+Prüfstand. Ein grüner CI-Bau allein belegt keinen fehlerfreien Praxisbetrieb.
 
 Bitte laden Sie PraxisSchutz nur von einem hier veröffentlichten Release oder von der
 [offiziellen Produktwebsite](https://stoicera.github.io/praxisschutz/) herunter. Vergleichen Sie vor der Installation die Prüfsumme.
@@ -23,8 +24,9 @@ Allgemein zugängliche Anleitungen:
 - [Installation, Sicherung und Updates](docs/installation-und-updates.md)
 - [Lizenz und Rechnung](docs/lizenz.md)
 
-Diese Unterlagen beschreiben den Entwicklungsstand und sind keine Freigabe für reale
-Patientendaten. Die Windows-11-Abnahme des tatsächlich verteilten Installers steht noch aus.
+Diese Unterlagen beschreiben den aktuellen Vorabstand. Vor Verarbeitung echter Patientendaten
+sind Installation, PDF-Ausgabe, Sicherung und Wiederherstellung auf dem vorgesehenen Windows-PC
+mit Testdaten zu prüfen; die Praxis-IT muss die Nutzung eines unsignierten Installers zulassen.
 
 Für Fragen: [sebastian.kern@stoicera.com](mailto:sebastian.kern@stoicera.com).
 Bitte keine Patientendaten, Dokumente oder Codes senden.
