@@ -12,10 +12,14 @@ Erst nach Veröffentlichung eines freigegebenen Releases:
    Bitte keine Patientendaten mitsenden.
 3. Den nach Zahlungseingang ausgestellten Registrierungsschlüssel in der App eintragen.
    Jede Installation unter einem Windows-Benutzerkonto benötigt eine eigene Aktivierung.
+4. Einen Praxisschlüssel mit mindestens zwölf Zeichen selbst wählen oder den erzeugten
+   Zufallsschlüssel geschützt notieren. Er gehört nicht in E-Mails oder unverschlüsselte
+   Dateien. Nach jedem Neustart ist er einmal für neue PDFs einzugeben.
 
 Die portable Sicherung enthält Patientenangaben, Codes und Praxiseinstellungen, aber keine
 Original-PDFs und keine Lizenz. Jede Sicherung hat einen eigenen Wiederherstellungsschlüssel.
-Sicherungsdatei und gedruckten Schlüssel getrennt aufbewahren. Änderungen nach dem Export
+Sicherungsdatei, gedruckten Wiederherstellungsschlüssel und Praxisschlüssel getrennt
+aufbewahren. Beide Schlüssel sind für die Nutzung der gesicherten Codes nötig. Änderungen nach dem Export
 sind nicht in dieser Sicherung enthalten. Die Wiederherstellung regelmäßig mit Testdaten
 auf einem getrennten Windows-PC üben.
 

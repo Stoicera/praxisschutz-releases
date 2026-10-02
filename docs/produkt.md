@@ -12,10 +12,10 @@ Patientinnen und Patienten benötigen keine PraxisSchutz-App und kein Benutzerko
 das PDF mit einem geeigneten PDF-Programm und geben den Code der Papierkarte ein. Die Praxis
 soll den Ablauf vor dem Einsatz auf den verwendeten Endgeräten mit Testdaten prüfen.
 
-Nach bestätigtem Kartendruck zeigt der derzeitige Entwicklungsstand den Code in der
-Oberfläche nicht erneut an. Für spätere PDFs bleibt er im Windows-geschützten lokalen Tresor
-gespeichert. Ein zusätzlicher Praxisschlüssel für die Codes ist geplant und noch nicht
-freigegeben.
+Der neue, noch nicht freigegebene Entwicklungsstand schützt gespeicherte Codes mit einem
+zusätzlichen Praxisschlüssel. Nach bestätigtem Kartendruck ist ein Code nur nach erneuter
+Schlüsselbestätigung sichtbar. Für spätere PDFs muss die Praxis ihre Sitzung zunächst
+entsperren. Diese Änderung ist noch nicht am freigegebenen Windows-Installer abgenommen.
 
 Wichtig: Nur die verschlüsselte Kopie anhängen; keine Diagnose in unverschlüsselten Betreff
 oder Nachrichtentext schreiben. Die Empfängeradresse vor dem Versand prüfen.

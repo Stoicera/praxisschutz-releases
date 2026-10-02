@@ -7,11 +7,13 @@ Papier übergeben. Der lokale Tresor ist unter Windows an das Benutzerkonto gebu
 Sicherungen sind zusätzlich mit einem eigenen Wiederherstellungsschlüssel verschlüsselt.
 Es gibt keinen Patienten-Cloud-Dienst, laufenden Lizenzserver oder Versand durch die App.
 
-Die Sperre der erneuten Codeanzeige nach bestätigtem Kartendruck schützt vor beiläufigem
-Nachsehen in der Oberfläche. Sie ist keine Zusage, dass ein kompromittierter Praxis-PC die
-Codes nicht erfassen kann. Beim Verschlüsseln muss der Code verfügbar sein. Ein zusätzlicher
-Praxisschlüssel, der vor der Verschlüsselung pro Sitzung eingegeben wird, ist in Arbeit;
-sein Schutz darf erst nach technischer Prüfung und Freigabe behauptet werden.
+Der neue, noch nicht für Patientendaten freigegebene Entwicklungsstand legt gespeicherte
+Codes in eine zusätzliche age/Scrypt-Hülle. Ein selbst gewählter Praxisschlüssel braucht
+mindestens zwölf Zeichen; alternativ erzeugt die App einen zufälligen Schlüssel. Die
+Praxis entsperrt ihn einmal pro Sitzung vor neuen PDFs. Zum Anzeigen eines bestätigten
+Codes oder Erneuern ist eine frische Eingabe erforderlich. Ein kompromittierter laufender
+Prozess kann Passwort und Codes dennoch möglicherweise erfassen. Die Windows-Abnahme des
+exakten Installers und die Praxisfreigabe stehen aus.
 
 PraxisSchutz schützt weder das Originaldokument, unverschlüsselte E-Mail-Metadaten noch vor
 Phishing oder Schadsoftware auf dem Praxis-PC. Windows-Updates, getrennte Konten,
@@ -20,4 +22,6 @@ Aufgaben der Praxis-IT. Die rechtliche Eignung eines konkreten Versandprozesses 
 zu prüfen.
 
 Registrierungsschlüssel, Patientencode und Wiederherstellungsschlüssel haben verschiedene
-Zwecke. Der Registrierungsschlüssel schaltet Arbeitsvorgänge frei, öffnet aber keine PDFs.
+Zwecke. Der Praxisschlüssel schützt gespeicherte Codes. Der Registrierungsschlüssel
+schaltet Arbeitsvorgänge frei, öffnet aber keine PDFs. Für Codes in einer neuen portablen
+Sicherung sind Wiederherstellungs- **und** Praxisschlüssel nötig.
