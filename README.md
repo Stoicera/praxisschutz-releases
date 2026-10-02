@@ -10,11 +10,11 @@ echte Patientendaten. Sobald die Abnahme des exakten Windows-Installers abgeschl
 erscheinen unter [Releases](https://github.com/Stoicera/praxisschutz-releases/releases) die
 Installationsdatei, ihre SHA-256-Prüfsumme, Versionshinweise und der Freigabestatus.
 
-Bitte laden Sie PraxisSchutz nur von einem hier veröffentlichten Release oder von der späteren
-offiziellen Produktwebsite herunter. Vergleichen Sie vor der Installation die Prüfsumme.
+Bitte laden Sie PraxisSchutz nur von einem hier veröffentlichten Release oder von der
+[offiziellen Produktwebsite](https://stoicera.github.io/praxisschutz/) herunter. Vergleichen Sie vor der Installation die Prüfsumme.
 Der Download ist kostenfrei; neue Arbeitsvorgänge erfordern eine separat erworbene
 Jahreslizenz. Die Produktwebsite wird aus dem privaten Quell-Repository über GitHub Pages
-veröffentlicht; die eigene Domain wird nachträglich eingerichtet.
+veröffentlicht; die eigene Domain `praxisschutz.stoicera.com` wird nachträglich eingerichtet.
 
 Allgemein zugängliche Anleitungen:
 
