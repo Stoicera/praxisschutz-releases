@@ -31,6 +31,14 @@ im privaten Testprotokoll). Dazu gehören Papierdruck, zweites Windows-Konto, re
 Update, Wiederherstellung und Registrierung auf dem Ziel-PC. Der Installer und die
 mitgelieferten Programmdateien sind derzeit **nicht digital signiert**. Windows kann
 „Unbekannter Herausgeber“ anzeigen; verwaltete Geräte können die Installation sperren.
+
+Beim ersten manuellen Update von der alten 0.1-Version in einer Windows-11-Test-VM
+schlug die vorgewählte Option „Vor der Installation deinstallieren“ mit
+„Error launching installer“ und „Unable to uninstall“ fehl. Mit „Nicht deinstallieren“
+schloss 0.2 die Installation ab und der synthetische Patient blieb sichtbar. Dies ist
+ein offener Update-Befund; bestehende Installationen nur nach frischer Sicherung und
+mit Herstellerbegleitung aktualisieren. Eine Neuinstallation auf einem leeren PC ist
+von diesem Altversions-Befund nicht betroffen.
 Eine solche Sperre sollte durch die Praxis-IT geklärt werden, nicht durch Abschalten
 einer Schutzfunktion.
 

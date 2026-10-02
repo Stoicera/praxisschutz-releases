@@ -31,6 +31,12 @@ Lizenzstatus, Patientenliste und eine Verschlüsselung mit Testdaten prüfen. Ei
 mit Testdaten auf einem getrennten Windows-Konto üben. Für einen neuen PC oder ein anderes
 Windows-Konto ist eine neue Installations-ID und abgestimmte Aktivierung erforderlich.
 
+**Bekannter Befund beim Wechsel von 0.1 auf 0.2:** In einer Windows-11-Test-VM scheiterte
+die im Installer vorausgewählte Deinstallation der alten Version. Die Option „Nicht
+deinstallieren“ installierte 0.2; der synthetische Patient blieb erhalten. Dieser Weg
+ist noch nicht vollständig abgenommen. Bestehende Installationen nur nach frischer
+Sicherung und mit Herstellerbegleitung aktualisieren.
+
 Bei Problemen Tresordateien nicht manuell löschen. Version, Zeitpunkt und eine neutrale
 Fehlerbeschreibung an den Hersteller senden, aber niemals Patientendaten, Codes oder
 Wiederherstellungsschlüssel.
