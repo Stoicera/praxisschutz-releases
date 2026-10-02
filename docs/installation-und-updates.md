@@ -1,0 +1,30 @@
+# Installation, Datensicherung und Updates
+
+**Stand: 02.10.2026. Es gibt noch keinen freigegebenen Kundendownload.**
+
+Erst nach Veröffentlichung eines freigegebenen Releases:
+
+1. Den Windows-11-x64-Installer aus diesem Repository herunterladen und die veröffentlichte
+   SHA-256-Prüfsumme mit der heruntergeladenen Datei vergleichen. Interne CI-Artefakte und
+   Release-Kandidaten sind keine Kundenversionen.
+2. Im vorgesehenen Windows-Benutzerkonto installieren und starten. Die Installations-ID
+   unter „Lizenz & Freischaltung“ für eine externe Rechnung an Lugmayr-Kern übermitteln.
+   Bitte keine Patientendaten mitsenden.
+3. Den nach Zahlungseingang ausgestellten Registrierungsschlüssel in der App eintragen.
+   Jede Installation unter einem Windows-Benutzerkonto benötigt eine eigene Aktivierung.
+
+Die portable Sicherung enthält Patientenangaben, Codes und Praxiseinstellungen, aber keine
+Original-PDFs und keine Lizenz. Jede Sicherung hat einen eigenen Wiederherstellungsschlüssel.
+Sicherungsdatei und gedruckten Schlüssel getrennt aufbewahren. Änderungen nach dem Export
+sind nicht in dieser Sicherung enthalten. Die Wiederherstellung regelmäßig mit Testdaten
+auf einem getrennten Windows-PC üben.
+
+Die direkte Windows-Installation prüft nicht selbst im Netz auf Updates. Vor einem Update
+eine neue portable Sicherung erstellen, Versionshinweise lesen, die Prüfsumme vergleichen
+und den freigegebenen Installer im vorgesehenen Benutzerkonto installieren. Danach Start
+und eine Verschlüsselung mit Testdaten prüfen. Für einen neuen PC oder ein anderes
+Windows-Konto ist eine neue Installations-ID und abgestimmte Aktivierung erforderlich.
+
+Bei Problemen Tresordateien nicht manuell löschen. Version, Zeitpunkt und eine neutrale
+Fehlerbeschreibung an den Hersteller senden, aber niemals Patientendaten, Codes oder
+Wiederherstellungsschlüssel.

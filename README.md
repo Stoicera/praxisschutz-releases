@@ -13,7 +13,18 @@ Installationsdatei, ihre SHA-256-Prüfsumme, Versionshinweise und der Freigabest
 Bitte laden Sie PraxisSchutz nur von einem hier veröffentlichten Release oder von der späteren
 offiziellen Produktwebsite herunter. Vergleichen Sie vor der Installation die Prüfsumme.
 Der Download ist kostenfrei; neue Arbeitsvorgänge erfordern eine separat erworbene
-Jahreslizenz. Preise und Freischaltung werden auf der Produktwebsite erklärt.
+Jahreslizenz. Die Produktwebsite wird aus dem privaten Quell-Repository über GitHub Pages
+veröffentlicht; die eigene Domain wird nachträglich eingerichtet.
+
+Allgemein zugängliche Anleitungen:
+
+- [Produkt und Ablauf](docs/produkt.md)
+- [Sicherheit und Grenzen](docs/sicherheit.md)
+- [Installation, Sicherung und Updates](docs/installation-und-updates.md)
+- [Lizenz und Rechnung](docs/lizenz.md)
+
+Diese Unterlagen beschreiben den Entwicklungsstand und sind keine Freigabe für reale
+Patientendaten. Die Windows-11-Abnahme des tatsächlich verteilten Installers steht noch aus.
 
 Für Fragen: [sebastian.kern@stoicera.com](mailto:sebastian.kern@stoicera.com).
 Bitte keine Patientendaten, Dokumente oder Codes senden.
